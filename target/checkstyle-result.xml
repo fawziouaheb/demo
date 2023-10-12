@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.12.4">
+<file name="D:\master\ingénerie_logiciels\devoir1\demo\src\main\java\com\example\myclass\Exemple.java">
+<error line="23" column="5" severity="error" message="&apos;METHOD_DEF&apos; doit être séparé de la ligne précédente." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="30" column="5" severity="error" message="&apos;METHOD_DEF&apos; doit être séparé de la ligne précédente." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+</file>
+</checkstyle>
