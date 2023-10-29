@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="fr"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>TabAlgos.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">demo</a> &gt; <a href="index.source.html" class="el_package">app.exercice2</a> &gt; <span class="el_source">TabAlgos.java</span></div><h1>TabAlgos.java</h1><pre class="source lang-java linenums">package app.exercice2;
+
+/**
+ * cette class impléménte des fonctions qui renvoie soit le
+ * plus grand le plus petit ou la moyenne dans un tableau .
+ **/
+public final class TabAlgos {
+/**
+ * le constructeur de la class TabAlgos .
+ */
+private TabAlgos() {  }
+/**
+ * Renvoie la valeur la plus grande d'un tableau .
+ * @param tab le tableau en question
+ * @throw IllegalArgumentException si tab et null ou vide.
+ * @return retourner la plus grande valeur du tableau
+ **/
+public static int plusGrand(final int[] tab) {
+<span class="fc bfc" id="L19" title="All 2 branches covered.">    if (tab.length == 0) {</span>
+<span class="fc" id="L20">        throw new IllegalArgumentException(&quot;le tableau est null&quot;);</span>
+    }
+<span class="fc" id="L22">    int max = tab[0];</span>
+<span class="fc bfc" id="L23" title="All 2 branches covered.">    for (int i : tab) {</span>
+<span class="fc bfc" id="L24" title="All 2 branches covered.">        if (i &gt; max) {</span>
+<span class="fc" id="L25">           max = i;</span>
+        }
+    }
+<span class="fc" id="L28">    return max;</span>
+}
+/**
+ * Renvoie la moyenne du tableau .
+ * @param tab le tableau en question
+ * @throw IllegalArgumentException si tab et null ou vide.
+ * @return la moyenne du tableau
+ */
+public static double moyenne(final int[] tab) {
+<span class="fc bfc" id="L37" title="All 2 branches covered.">    if (tab.length == 0) {</span>
+<span class="fc" id="L38">        throw new IllegalArgumentException(&quot;le tableau est vide&quot;);</span>
+    }
+<span class="fc" id="L40">    int somme = 0;</span>
+<span class="fc bfc" id="L41" title="All 2 branches covered.">    for (int i : tab) {</span>
+<span class="fc" id="L42">        somme = somme + i;</span>
+    }
+<span class="fc" id="L44">    return (double)somme / (double)tab.length;</span>
+ }
+ /**
+  * Renvoie un boolean si les deux tableaux sont identique .
+  * les valeurs sont dans le meme ordre
+  * @param tab1 le premier tableau à comparer
+  * @param tab2 le deuxième tableau à comparer
+  * @return retourner un booléan si les deux tableaux sont identique
+  */
+public static boolean egaux(final int[] tab1, final int[] tab2) {
+<span class="fc bfc" id="L54" title="All 2 branches covered.">    if (tab1.length != tab2.length) {</span>
+<span class="fc" id="L55">        throw new IllegalArgumentException(&quot;tab1 et tab2 ont pas la meme longueur&quot;);</span>
+    }
+<span class="fc" id="L57">    boolean identique = true;</span>
+<span class="fc" id="L58">    int index = 0;</span>
+<span class="fc bfc" id="L59" title="All 4 branches covered.">    while (identique &amp;&amp; index &lt; tab1.length) {</span>
+<span class="fc bfc" id="L60" title="All 2 branches covered.">        if (tab1[index] != tab2[index]) {</span>
+<span class="fc" id="L61">            identique = false;</span>
+<span class="fc" id="L62">            continue;</span>
+        }
+<span class="fc" id="L64">        index++;</span>
+    }
+<span class="fc" id="L66">    return identique;</span>
+}
+
+}
+
+
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>
