@@ -2,27 +2,6 @@
 <checkstyle version="9.3">
 <file name="D:\master\ingénerie_logiciels\Activité1\demo\src\main\java\app\exercice1\question1\Exemple.java">
 <error line="1" severity="error" message="Il manque un caractère NewLine à la fin du fichier." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
-</file>
-<file name="D:\master\ingénerie_logiciels\Activité1\demo\src\main\java\app\exercice1\question1\package-info.java">
-<error line="1" column="1" severity="error" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
-<error line="2" column="1" severity="error" message="Le commentaire Javadoc est placé au mauvais endroit." source="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheck"/>
-</file>
-<file name="D:\master\ingénerie_logiciels\Activité1\demo\src\main\java\app\exercice1\question2\package-info.java">
-<error line="1" column="1" severity="error" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
-<error line="2" column="1" severity="error" message="Le commentaire Javadoc est placé au mauvais endroit." source="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheck"/>
-</file>
-<file name="D:\master\ingénerie_logiciels\Activité1\demo\src\main\java\app\exercice2\package-info.java">
-<error line="1" column="1" severity="error" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
-<error line="2" column="1" severity="error" message="Le commentaire Javadoc est placé au mauvais endroit." source="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheck"/>
-</file>
-<file name="D:\master\ingénerie_logiciels\Activité1\demo\src\main\java\app\exercice2\TabAlgos.java">
-<error line="44" column="19" severity="error" message="Il manque une espace après &apos;conversion de type&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
-<error line="44" column="35" severity="error" message="Il manque une espace après &apos;conversion de type&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
-<error line="55" severity="error" message="La ligne excède 80 caractères (trouvé 84)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
-</file>
-<file name="D:\master\ingénerie_logiciels\Activité1\demo\src\main\java\app\package-info.java">
-<error line="1" severity="error" message="Il manque un caractère NewLine à la fin du fichier." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
-<error line="1" column="1" severity="error" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
-<error line="2" column="1" severity="error" message="Le commentaire Javadoc est placé au mauvais endroit." source="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheck"/>
+<error line="1" severity="error" message="Le fichier package-info.java est manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
 </file>
 </checkstyle>

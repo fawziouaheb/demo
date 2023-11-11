@@ -41,7 +41,7 @@ public static double moyenne(final int[] tab) {
     for (int i : tab) {
         somme = somme + i;
     }
-    return (double) somme / (double) tab.length;
+    return somme / tab.length;
  }
  /**
   * Renvoie un boolean si les deux tableaux sont identique .
@@ -67,5 +67,4 @@ public static boolean egaux(final int[] tab1, final int[] tab2) {
 }
 
 }
-
 

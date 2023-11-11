@@ -41,7 +41,7 @@ public static double moyenne(final int[] tab) {
 <span class="fc bfc" id="L41" title="All 2 branches covered.">    for (int i : tab) {</span>
 <span class="fc" id="L42">        somme = somme + i;</span>
     }
-<span class="fc" id="L44">    return (double)somme / (double)tab.length;</span>
+<span class="fc" id="L44">    return (double) somme / (double) tab.length;</span>
  }
  /**
   * Renvoie un boolean si les deux tableaux sont identique .
@@ -52,7 +52,7 @@ public static double moyenne(final int[] tab) {
   */
 public static boolean egaux(final int[] tab1, final int[] tab2) {
 <span class="fc bfc" id="L54" title="All 2 branches covered.">    if (tab1.length != tab2.length) {</span>
-<span class="fc" id="L55">        throw new IllegalArgumentException(&quot;tab1 et tab2 ont pas la meme longueur&quot;);</span>
+<span class="fc" id="L55">        throw new IllegalArgumentException(&quot;no identique length&quot;);</span>
     }
 <span class="fc" id="L57">    boolean identique = true;</span>
 <span class="fc" id="L58">    int index = 0;</span>
@@ -67,6 +67,5 @@ public static boolean egaux(final int[] tab1, final int[] tab2) {
 }
 
 }
-
 
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

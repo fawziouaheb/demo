@@ -1,10 +1,10 @@
-package app.exercice1.question1;
-/**
-* Ma class d'exemple.
-*/
-public class Exemple {
+//package app.exercice1.question1
+// /**
+// * Ma class d'exemple.
+// */
+// public class Exemple {
 //  private final String t;
-//  private final int v;
+//  private int v;
 // public Exemple(String t) {
 // t = t;
 // }
@@ -21,4 +21,4 @@ public class Exemple {
 // public final String getT() {
 // if ( v > 0) return t;
 // }
-}
+// }

@@ -1,4 +1,4 @@
-package app.exercice2;
 /**
- * package-info.java: toutes les infos sur le package
+ * Description du package.
  */
+package app.exercice2;

@@ -2,4 +2,3 @@ GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_
 demo,app,App,15,0,0,0,6,0,1,0,1,0
 demo,app.exercice1.question2,Exemple,22,0,2,0,9,0,5,0,4,0
 demo,app.exercice2,TabAlgos,0,106,0,18,0,23,0,12,0,3
-demo,app.exercice1.question1,Exemple,3,0,0,0,1,0,1,0,1,0
